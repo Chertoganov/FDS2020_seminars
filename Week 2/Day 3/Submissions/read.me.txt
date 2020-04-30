@@ -1,0 +1,25 @@
+Описание:
+Программа состоит из пяти классов:
+1. Загрузка данных
+2. Очистка данных
+3. Модели
+4. Оптимизация гиперпараметров моделей
+5. Сохранение результатов
+
+Что делать:
+1. Установите виртуальное окружение
+conda create -n envDask2 python=3.6
+2. Активируйте витуальное окружение 
+conda activate envDask2
+3. Установите Jupyter на всякий случай
+conda install -c anaconda jupyter -y
+4. Установите Dask
+conda install -c conda-forge dask-ml -y
+5. Устновити dask xboost
+pip install dask-ml[xgboost] 
+6. Установите dask-ml
+conda install -c conda-forge dask-ml
+7. Зайти в Powershell (на Windows) 
+8. Перейдите в директорию с кодом 
+9. Запустите ./run.sh
+
